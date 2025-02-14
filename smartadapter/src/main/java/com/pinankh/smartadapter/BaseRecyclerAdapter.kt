@@ -74,7 +74,7 @@ class BaseRecyclerAdapter<VB : ViewBinding, T>(
             if (isButtonsVisible) {
                 val animator: ObjectAnimator =
                     ObjectAnimator.ofFloat(llForeground, "translationX", 0f)
-                animator.setDuration(300)
+                animator.setDuration(350)
                 animator.start()
                 animator.doOnEnd {
                     isButtonsVisible = false

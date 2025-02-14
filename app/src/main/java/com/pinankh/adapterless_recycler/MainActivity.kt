@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
      * An explanatory function of all the features of the simplified-recycler library and how to use it
      **/
     private fun setUpRecycler() {
-        val listOfStrings = mutableListOf(Test("A"), Test("B"), Test("C"))
+        val listOfStrings = mutableListOf(Test("Test A"), Test("Test B"), Test("Test C"))
 
         viewBinding.rv.adapter = smartRecyclerAdapter(
             ItemRecyclerviewBinding::inflate,
